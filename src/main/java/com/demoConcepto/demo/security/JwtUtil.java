@@ -10,7 +10,7 @@ import java.util.Date;
 
 @Component
 public class JwtUtil {
-    private static final String SECRET_KEY = "mi-clave-super-secreta-de-32-bytes!!!"; // tiene que tener 32+ caracteres
+    private static final String SECRET_KEY = "yK3T2s9aJ9s+5hRTOgy1zn1X3y+gV+jp7IqaRHNql7g=";
 
     public String generateToken(String mail) {
         return Jwts.builder()
